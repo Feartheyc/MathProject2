@@ -164,7 +164,7 @@ LineRenderer:
     numCornerVertices: 5
     numCapVertices: 5
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba475c6316a699247a1d9a9ca6d3718e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  rope: {fileID: 0}
+  rope: {fileID: 1568254628963274293}
 --- !u!1 &5360735568014694430
 GameObject:
   m_ObjectHideFlags: 0

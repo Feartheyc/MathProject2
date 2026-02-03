@@ -508,6 +508,10 @@ PrefabInstance:
       value: Rope (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5180580765007982429, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9864b6e1a58ec93408e414b6a5a6cbd6, type: 2}
+    - target: {fileID: 5180580765007982429, guid: 735229424b1bf054284f3073e594d58c, type: 3}
       propertyPath: m_Positions.Array.data[0].x
       value: 3.069551
       objectReference: {fileID: 0}
@@ -1270,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_Parameters.textureMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5180580765007982429, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9864b6e1a58ec93408e414b6a5a6cbd6, type: 2}
     - target: {fileID: 5180580765007982429, guid: 735229424b1bf054284f3073e594d58c, type: 3}
       propertyPath: m_Positions.Array.data[0].x
       value: -3.3022397

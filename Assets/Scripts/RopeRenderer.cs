@@ -10,6 +10,7 @@ public class RopeRenderer : MonoBehaviour
     {
         lr = GetComponent<LineRenderer>();
     }
+    
 
     void LateUpdate()
     {

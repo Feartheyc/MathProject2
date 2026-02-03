@@ -40,6 +40,7 @@ public class NumberPlatform : MonoBehaviour
         // else
         // {
         //     SFXManager.Instance.PlaySFX(coinSFX, 0.7f);
+        
         // }
 
         used = true;

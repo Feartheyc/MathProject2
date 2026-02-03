@@ -61,7 +61,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a677694c8cac004fb5fb8965e7faf0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   rope: {fileID: 1568254628963274293}
+  ropeMaterial: {fileID: 0}
 --- !u!1 &5360735568014694430
 GameObject:
   m_ObjectHideFlags: 0

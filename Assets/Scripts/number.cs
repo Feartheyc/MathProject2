@@ -33,14 +33,14 @@ public class NumberPlatform : MonoBehaviour
 
         Debug.Log("Coin triggered");
 
-        if (SFXManager.Instance == null)
-        {
-            Debug.LogError("SFXManager INSTANCE IS NULL");
-        }
-        else
-        {
-            SFXManager.Instance.PlaySFX(coinSFX, 0.7f);
-        }
+        // if (SFXManager.Instance == null)
+        // {
+        //     Debug.LogError("SFXManager INSTANCE IS NULL");
+        // }
+        // else
+        // {
+        //     SFXManager.Instance.PlaySFX(coinSFX, 0.7f);
+        // }
 
         used = true;
         col.enabled = false;

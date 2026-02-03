@@ -15,14 +15,14 @@ public class NumberPlatform : MonoBehaviour
     bool used;
     SpriteRenderer sr;
     Collider2D col;
-    EndlessPuzzleManager puzzleManager;
+    PuzzleManager puzzleManager;
     Vector3 originalScale;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
-        puzzleManager = FindObjectOfType<EndlessPuzzleManager>();
+        puzzleManager = FindObjectOfType<PuzzleManager>();
         originalScale = transform.localScale; // ✅ FIX: lossyScale can break animations
     }
 

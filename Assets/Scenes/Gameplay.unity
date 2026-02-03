@@ -130,6 +130,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 956af06236ebd9c46b2f66bb58163a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!1 &545164442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5360735568014694430, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+  m_PrefabInstance: {fileID: 1203938798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!232 &545164448
+DistanceJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545164442}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 3.5610392
+  m_MaxDistanceOnly: 0
 --- !u!1 &602279702
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,13 +576,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8857945634771464136, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857945634771464136, guid: 735229424b1bf054284f3073e594d58c, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 1135216932}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5360735568014694430, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 545164448}
   m_SourcePrefab: {fileID: 100100000, guid: 735229424b1bf054284f3073e594d58c, type: 3}
 --- !u!1 &1481315984
 GameObject:
@@ -1034,6 +1066,31 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!1 &2052412215 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5360735568014694430, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+  m_PrefabInstance: {fileID: 3882139173124044089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!232 &2052412221
+DistanceJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052412215}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 3.7359068
+  m_MaxDistanceOnly: 0
 --- !u!1 &2058690257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,8 +1214,8 @@ Transform:
   m_GameObject: {fileID: 2058690257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22120965, y: -2.24, z: 0}
-  m_LocalScale: {x: 0.54038, y: 0.54038, z: 0.54038}
+  m_LocalPosition: {x: -0.12, y: -2.24, z: 0}
+  m_LocalScale: {x: 0.551836, y: 0.551836, z: 0.551836}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1362,13 +1419,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8857945634771464136, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857945634771464136, guid: 735229424b1bf054284f3073e594d58c, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 1007272490}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5360735568014694430, guid: 735229424b1bf054284f3073e594d58c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2052412221}
   m_SourcePrefab: {fileID: 100100000, guid: 735229424b1bf054284f3073e594d58c, type: 3}
 --- !u!1001 &7182535205414617488
 PrefabInstance:

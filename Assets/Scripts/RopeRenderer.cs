@@ -6,12 +6,13 @@ public class RopeRenderer : MonoBehaviour
     public Rope rope;
     LineRenderer lr;
 
+    // ================================
     void Awake()
     {
         lr = GetComponent<LineRenderer>();
     }
-    
 
+    // ================================
     void LateUpdate()
     {
         if (rope == null) return;

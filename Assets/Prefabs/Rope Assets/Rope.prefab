@@ -189,6 +189,7 @@ MonoBehaviour:
   segmentPrefab: {fileID: 5602538355838940302}
   segmentCount: 15
   segmentLength: 0.1
+  segments: []
 --- !u!114 &4885216404784899596
 MonoBehaviour:
   m_ObjectHideFlags: 0
